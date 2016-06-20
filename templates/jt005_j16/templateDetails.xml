@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+    <name>jt005_j16</name>
+    <version>1.6.1</version>
+    <creationDate>March 3, 2011</creationDate>
+    <author>JoomlaThemes.co</author>
+    <authorEmail>support@joomlathemes.co</authorEmail>
+    <authorUrl>http://joomlathemes.co</authorUrl>
+    <copyright>Copyright 2011 - JoomlaThemes.co</copyright>
+    <license>Creative Commons</license>
+	<description><![CDATA[
+	<h1>JoomlaThemes.co - JT005 J!1.6</h1>	
+	<img src="../templates/jt005_j16/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	<b>Free Joomla 1.6 Template developed by <a target="_blank" href="http://joomlathemes.co">JoomlaThemes</a>, released under the <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0</a>.
+	<br />Our free joomla templates may be used for both personal and commercial websites.<br />
+	<br />Copyright &copy; 2011 JoomlaThemes.co - All Rights Reserved</b>
+	]]></description>
+	<files>
+		<filename>index.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>functions.php</filename>
+		<filename>error.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>html/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>top</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>right</position>
+		<position>left</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>copyright</position>
+	</positions>
+</extension>

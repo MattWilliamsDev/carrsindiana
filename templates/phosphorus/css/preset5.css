@@ -1,0 +1,12 @@
+body {background:url(../images/preset5/background.png) repeat scroll 0 0 #2E769A;}
+#s5_topmenu {background:#303030;	}
+#s5_topbar {background:#4b5868;}
+#s5_abovebodymods {background:url(../images/Shape5_Phosphorus_modsshadow.png) repeat-x scroll center top #4a5766;}
+#s5_belowbodymods {background:url(../images/Shape5_Phosphorus_bottommodstopshad.png) repeat-x scroll center top #4a5766;}
+
+
+#s5_navv ul li.s5_level_one_parent a, #s5_navv a span {color:#ffd600;text-shadow:1px 1px #3f4956;}
+#s5_navv li:hover a span {text-shadow:1px 1px #ffffff;}
+.s5_above_body div.module .s5_h3_first {color:#FFD600;}
+#s5_rightcolumn div.module .s5_h3_first, #s5_rightcolumn div.module .s5_h3_first {color:#333333;}
+.module-gray .s5_h3_first, .module-white .s5_h3_first,.module-h3gradient .s5_h3_first  {color:#333333;}

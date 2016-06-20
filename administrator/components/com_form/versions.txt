@@ -1,0 +1,6 @@
+<bf>
+	<providesFrameworkVersion>3.4.6</providesFrameworkVersion>
+	<requiresMinimumFrameworkVersion>3.4.6</requiresMinimumFrameworkVersion>
+	<providesXAJAXVersion>0.3</providesXAJAXVersion>
+	<requiresMinimumXAJAXVersion>0.3</requiresMinimumXAJAXVersion>
+</bf>

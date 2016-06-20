@@ -1,0 +1,51 @@
+div#bf_pleasewait_preview,div#bf_pleasewait_submit {
+	display: none;
+}
+
+table.bfadminlist thead th {
+	text-align: left;
+}
+
+table.bfadminlist th.pagination {
+	border-bottom: none;
+	text-align: center;
+	background: #FFF;
+}
+
+table.bfadminlist th {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #3c6077;
+	cursor: pointer;
+	height: 12px;
+	line-height: 16px;
+	font-size: 15px;
+	background: #F7F7F7;
+	text-align: left;
+}
+
+#bfHeader {
+	color: #3c6077;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+table.bfadminlist th a:link,table.adminlist th a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #3c6077;
+	cursor: pointer;
+	height: 12px;
+	line-height: 12px;
+	font-size: 15px;
+}
+
+table.bfadminlist tr.row1 {
+	text-align: left;
+	background: #F9F9F9;
+}
+
+table.bfadminlist tr.row0 {
+	text-align: left;
+	background: #FFF;
+}

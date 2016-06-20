@@ -1,0 +1,160 @@
+	#s5_menu, #s5_gradientusers, #s5_topgradient_back,.s5_modulemm-white,.s5_modulemm-black,#s5_getheight, #s5_mainbody, .s5_moduletm-white h3.s5_mod_h3-white, .s5_moduletm-black h3.s5_mod_h3-black{
+		direction:rtl;
+		text-align:right;}
+		
+	.s5_modulemm-blue, .s5_modulemm-bluegray, .s5_modulemm-whiteblue{
+		text-align:right;}
+
+	.pathway_first {
+		padding-left:8px;
+		padding-right:20px;
+		float:right;}
+
+		
+	ul.menu li, ul.menu-mainmenu li, #mainlevel li {
+		background:url(../images/Shape5_University_arrow.png) no-repeat right center;}
+	
+	#s5_topmod {float:right;}
+	
+	.s5_datewrapper { float:right;padding-left:0px;width:51px;position:relative;border-left:1px solid #CCCCCC;border-right:none;margin-left:9px;}
+	
+	.s5_yeardate {
+		margin-right:28px;}
+		
+		
+	.contentpaneopen {
+		padding-right:13px;}
+	
+	
+	.s5_leftset50 {float:right;}
+
+	.s5_rightset50 {float:left;}
+	
+	.s5_toplefrig, .s5_w_modwrap {margin-left:0px;}
+	
+	#s5_logreg {float:left;}
+	#s5_navv ul, #s5_navv li {float:right;}
+	
+	
+	#cboxClose {left:1px;}
+	
+	
+	.s5_above_body div.module h3.s5_mod_h3, #s5_topgradient_back div.module h3.s5_mod_h3 {
+	margin-right:34px;}
+	
+	
+	#s5_rightcolumn, #s5_leftcolumn {direction:rtl;}
+		
+
+/* register and search wrap */
+	#s5_logregtl, #s5_logregtr, #s5_logregtm{float:left;}
+	#mod_search_searchword {padding-right:15px;}
+
+/* live search */
+	#s5_logo {float:right;width:286px;}
+
+/* live search */
+	#loading_img {margin-right:158px;margin-top:-25px;}
+	#s5_searchicon {	float:left;}
+	#s5_searchicon {margin-left:-5px;width:44px;}
+
+/* accordion menu */
+	#s5_accordion_menu h3.s5_am_toggler {
+	text-align:right;}
+	
+
+	div.s5_accordion_menu_element li {padding-right:25px;padding-left:0px;text-align:right;}
+	ul.menu-mainmenu li a, a.mainlevel {padding-right:20px;background:transparent url(../images/arrow.png) no-repeat scroll right center;}
+	
+	a.readon {float:left;text-align:center;}
+
+/* user positions */
+	#s5_user1_100, #s5_user2_100 {	float:right;}						
+	#s5_user1_50, #s5_user2_50 {float:right;}
+	.s5_above_body, .s5_userpositions, .s5_contentbottom {float:right;direction:rtl;}		
+	#s5_advert1_33, #s5_advert2_33, #s5_advert3_33 {	float:right;}
+	#s5_advert1_50, #s5_advert2_50, #s5_advert3_50 {	float:right;}				
+	#s5_advert1_100, #s5_advert2_100, #s5_advert3_100 {float:right;}		
+	#s5_advert4_33, #s5_advert5_33, #s5_advert6_33 {	float:right;}		
+	#s5_advert4_50, #s5_advert5_50, #s5_advert6_50 {	float:right; }					
+	#s5_advert4_100, #s5_advert5_100 , #s5_advert6_100  {float:right;margin-right:19px;}		
+	#s5_top4_33, #s5_top5_33, #s5_top6_33 {	float:right;}
+	#s5_top4_50, #s5_top5_50, #s5_top6_50 {	float:right;}				
+	#s5_top4_100, #s5_top5_100, #s5_top6_100 {float:right;}		
+
+	
+	#s5_contentbottom1_33, #s5_contentbottom2_33, #s5_contentbottom3_33 {float:right;}
+	#s5_contentbottom1_50, #s5_contentbottom2_50, #s5_contentbottom3_50{float:right;}
+	#s5_contentbottom1_100, #s5_contentbottom2_100, #s5_contentbottom3_100 {	float:right; }
+	.s5_topmm {direction:rtl;}
+
+/* s5 box */
+	#cboxContent .module {
+		direction:rtl;}
+
+/* breadcrumbs */
+	.pathway_middle {
+		padding-left:8px;
+		float:right;}
+
+
+/* joomla newsflash */
+	.s5_calendar_descp  {
+		margin-right:37px;}
+
+
+
+/* suckerfish menu*/
+	#s5_navv {float:left;}
+
+	#s5_navv li li a{padding-left:0px;width:209px;}
+	#s5_navv li ul {left:-999em;}
+	#s5_navv li:hover ul ul, 
+	#s5_navv li:hover ul ul ul,
+	#s5_navv li:hover ul ul ul ul {right:-999em;}
+	#s5_navv li:hover ul{right:10px;}
+	#s5_navv li li:hover ul,
+	#s5_navv li li li:hover ul{right:203px;}
+	#s5_navv ul li ul li a:hover {width:203px;}
+	#s5_navv ul li a.parent:hover, #s5_navv ul li ul li a.parent:hover  {width:203px;}
+	#s5_navv ul li ul li:hover a, #s5_navv ul li ul li.over a{width:203px;}	
+	#s5_navv li ul {margin-right:-3px;}
+	#s5_navv ul li ul li {background:transparent url(../images/Shape5_Phosphorus_subhover_rtl.png)}
+	#s5_navv ul li.s5_menutop, #s5_navv ul li.s5_menutop:hover {margin-left:0px;}
+	#s5_navv ul li.s5_toparrow, #s5_navv ul li.s5_toparrow:hover {margin-left:0px;}
+	#s5_navv ul li.s5_menubottom, #s5_fm_ul0 ul li.s5_menubottom, #s5_navv ul li.s5_menubottom:hover, #s5_fm_ul0 ul li.s5_menubottom:hover {background:transparent url(../images/Shape5_Phosphorus_subbottom_rtl.png) no-repeat scroll 0 0;}
+	#s5_navv ul li li.lastitem a:hover {background:transparent url(../images/Shape5_Phosphorus_subhover_rtl.png) repeat-x scroll 1px 0;} 
+	#s5_navv ul li ul li {background:transparent url(../images/Shape5_Phosphorus_subhover_rtl.png) }
+	#s5_navv ul li ul li:hover, #s5_navv ul li ul li.over {background:transparent url(../images/Shape5_Phosphorus_subhover_rtl.png) repeat-y 0px 0px; }   
+	#s5_navv li ul ul {width:236px;}
+	#s5_navv ul li {text-align:right;}
+	#s5_navv ul li ul li a {margin-left:-10px;}
+	#s5_navv ul li ul li:hover a {margin-left:24px;}
+	#s5_middlecolwrap {text-align:right;direction:rtl;}
+	#s5_topbgradient .s5_w_modwrap {margin-left:-21px;}
+
+
+/* footer */
+	#s5_topmenu ul {	margin-left:-9px;}
+	#s5_footcopy{float:left;}
+	#s5_footergrad  {float:left;text-align:left;width:auto;}
+
+
+
+
+/* Jcomments
+----------------------------------------------------------- */
+	#jc {padding-right:11px; }
+	#jc h4 { text-align:right;}
+	#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {
+		text-align:right;}
+	#comments-form .btn, #comments-report-form .btn {
+		float:right;margin-right:22px;}
+	
+	
+/* End Jcomments
+----------------------------------------------------------- */
+	
+	
+	
+	

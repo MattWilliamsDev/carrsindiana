@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="1.6"
+	type="template"
+	client="site">
+	<name>comaxium</name>
+	<creationDate>October 2010</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - Comaxium</h1>
+
+	<br/>
+	<img src="../templates/comaxium/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials pertaining to this template and additional information check out:<br /> <a href="http://www.shape5.com/demo/comaxium">Comaxium Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>footer.php</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_comaxium.ini</language>
+	</languages>
+	<positions>
+		<position>debug</position>	
+		<position>bottom_menu</position>	
+		<position>logo</position>
+		<position>top_menu</position>	
+		<position>right</position>	
+		<position>left</position>	
+		<position>login</position>
+		<position>register</position>
+		<position>search</position>
+		<position>breadcrumb</position>
+		<position>top_1</position>
+		<position>top_2</position>
+		<position>top_row_1</position>
+		<position>top_row_2</position>
+		<position>top_row_3</position>
+		<position>top_row_4</position>
+		<position>bottom_row_1</position>
+		<position>bottom_row_2</position>
+		<position>bottom_row_3</position>
+		<position>bottom_row_4</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>
+		<position>above_body_3</position>
+		<position>above_body_4</position>
+		<position>above_body_5</position>
+		<position>above_body_6</position>
+		<position>above_body_7</position>
+		<position>above_body_8</position>
+		<position>below_body_1</position>
+		<position>below_body_2</position>
+		<position>below_body_3</position>
+		<position>below_body_4</position>
+		<position>below_body_5</position>
+		<position>below_body_6</position>
+		<position>below_body_7</position>
+		<position>below_body_8</position>
+		<position>s5_box1</position>
+		<position>s5_box2</position>
+		<position>s5_box3</position>
+		<position>s5_box4</position>
+		<position>s5_box5</position>
+		<position>s5_box6</position>
+		<position>s5_box7</position>
+		<position>s5_box8</position>
+		<position>s5_box9</position>
+		<position>s5_box10</position>
+	</positions>
+		<config>
+		<fields name="params">		
+		<fieldset name="options" label="Template Options">	
+		<field name="spacer0" label="&lt;span style=&quot;width:400px;display:block;font-weight:bold&quot;&gt;Make sure to hover your mouse over each title in this column for a full description of what each field does.&lt;/span&gt;" type="spacer" default="" />
+		<field name="spacer1" hr="true" type="spacer" default="" />
+		<field name="xml_s5_highlight" type="text" default="3E87BF" label="Highlight Color" description="This color controls most hyperlinks, main menu, borders, and titles displayed on the template." />
+		<field name="xml_s5_fonts" type="list" default="Arial" label="Site Font" description="Choose the font you desire for your site. View previews here: http://code.google.com/webfonts">
+			<option value="Arial">Arial</option>
+			<option value="Helvetica">Helvetica</option>
+			<option value="Sans-Serif">Sans-Serif</option>
+			<option value="Cantarell">Cantarell</option>
+			<option value="Cardo">Cardo</option>	
+			<option value="Crimson">Crimson</option>
+			<option value="Droid Sans">Droid Sans</option>
+			<option value="Droid Sans Mono">Droid Sans Mono</option>
+			<option value="Droid Serif">Droid Serif</option>
+			<option value="IM Fell">IM Fell</option>
+			<option value="Inconsolata">Inconsolata</option>
+			<option value="Josefin Sans Std Light">Josefin Sans Std Light</option>
+			<option value="Lobster">Lobster</option>
+			<option value="Molengo">Molengo</option>
+			<option value="Neuton">Neuton</option>
+			<option value="Nobile">Nobile</option>
+			<option value="OFL Sorts Mill Goudy TT">OFL Sorts Mill Goudy TT</option>
+			<option value="Old Standard TT">Old Standard TT</option>
+			<option value="Reenie Beanie">Reenie Beanie</option>
+			<option value="Tangerine">Tangerine</option>
+			<option value="Vollkorn">Vollkorn</option>
+			<option value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+		</field>
+		<field name="xml_s5_date" type="radio" default="yes" label="Show the Date in Header?" description="Choose whether or not to show the date in the header area.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</field>	
+		<field name="xml_s5_fixed_fluid" type="radio" default="fixed" label="Fixed of Fluid Layout?" description="Choose fixed or fluid layout. If choosing fixed you can set your body width below.">
+			<option value="fixed">Fixed</option>
+			<option value="fluid">Fluid</option>
+		</field>	
+		<field name="xml_s5_fixed_body_width" type="text" default="950" label="If Fixed - Body Width Pixels" description="Enter the width of the body in pixels." />
+		<field name="xml_s5_fluid_body_width" type="text" default="94" label="If Fluid - Body Width Percentage" description="Enter the width of the body in percentage." />
+		<field name="xml_s5_left_width" type="text" default="200" label="Left Width Pixels" description="Enter the width of the left column in pixels." />
+		<field name="xml_s5_right_width" type="text" default="270" label="Right Width Pixels" description="Enter the width of the right column in pixels." />
+		<field name="xml_s5_top2_width" type="text" default="304" label="Top_2 Width Pixels" description="Enter the width of the top_2 position in pixels. Top_1 will be automatically calculated." />
+		<field name="spacer4" hr="true" type="spacer" default="" />
+		<field name="s51spacer" label="&lt;span style=&quot;width:400px;display:block;font-weight:bold&quot;&gt;Below you can choose what menu system you would like to use.&lt;/span&gt;" type="spacer" default="" />
+		<field name="xml_menuname" type="menu" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />	
+		<field name="xml_s5_menu" type="list" default="4" label="Menu Type" description="Choose your desired menu effect from the dropdown list. To hide the menu choose No Menu.">
+			<option value="1">Drop In Menu</option>
+			<option value="3">Fading Menu</option>
+			<option value="4">Scroll Down Menu</option>
+			<option value="2">Suckerfish</option>
+			<option value="5">No Menu</option>
+		</field>	
+		<field name="xml_s5_jsmenu" type="radio" default="jq" label="Menu Script" description="Choose which script you would like to power the drop down menu.">
+			<option value="jq">jQuery</option>
+			<option value="s5">S5 Effects</option>
+		</field>		
+		<field name="spacer33" type="spacer" default="The sub menu text fields below will show underneath the main menu links. Try to avoid using quotes and apostrophes, they can often cause javascript issues." />
+		<field name="xml_s5_text_menu_1" type="text" default="" label="Sub Menu Text Label 1" description="Enter what sub text you would like for the first menu item" />
+		<field name="xml_s5_text_menu_2" type="text" default="" label="Sub Menu Text Label 2" description="Enter what sub text you would like for the second menu item" />
+		<field name="xml_s5_text_menu_3" type="text" default="" label="Sub Menu Text Label 3" description="Enter what sub text you would like for the third menu item" />
+		<field name="xml_s5_text_menu_4" type="text" default="" label="Sub Menu Text Label 4" description="Enter what sub text you would like for the fourth menu item" />
+		<field name="xml_s5_text_menu_5" type="text" default="" label="Sub Menu Text Label 5" description="Enter what sub text you would like for the fifth menu item" />
+		<field name="xml_s5_text_menu_6" type="text" default="" label="Sub Menu Text Label 6" description="Enter what sub text you would like for the sixth menu item" />
+		<field name="xml_s5_text_menu_7" type="text" default="" label="Sub Menu Text Label 7" description="Enter what sub text you would like for the seventh menu item" />
+		<field name="xml_s5_text_menu_8" type="text" default="" label="Sub Menu Text Label 8" description="Enter what sub text you would like for the eighth menu item" />
+		<field name="xml_s5_text_menu_9" type="text" default="" label="Sub Menu Text Label 9" description="Enter what sub text you would like for the nineth menu item" />
+		<field name="xml_s5_text_menu_10" type="text" default="" label="Sub Menu Text Label 10" description="Enter what sub text you would like for the tenth menu item" />
+		<field name="spacer6" hr="true" type="spacer" default="" />
+		<field name="s51spacer" label="&lt;span style=&quot;width:400px;display:block;font-weight:bold&quot;&gt;Below you can choose whether or not show the content/component area on the frontpage. If you choose no you must have a module published to either above_body_5,6,7 or 8 or below_body_1,2,3 or 4 or the layout will not be correct. If you choose no and disable all modules published to the frontpage in the positions above_body_1,2,3,4,5,6,7 or 8, below_body_1,2,3,4,5,6,7 or 8 left and right then the entire middle section will collapse.&lt;/span&gt;" type="spacer" default="" />
+		<field name="xml_s5_frontpage" type="radio" default="yes" label="Would You Like The Component and Article Area Shown On The Frontpage?" description="Choose whether or not to show the component and article section on the frontpage of the site.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</field>
+		<field name="spacer8" hr="true" type="spacer" default="" />
+		<field name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled - Example: http://www.mysite.com" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+		<field name="xml_s5_multibox" type="list" default="yes" label="Enable Multibox?" description="Enable the multibox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</field>
+		<field name="xml_s5_multioverlay" type="list" default="yes" label="Enable Multibox Overlay?" description="Enable the multibox overlay feature.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</field>
+		<field name="xml_s5_multicontrols" type="list" default="yes" label="Enable Multibox Controls?" description="Enable the multibox controls.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</field>	
+		<field name="xml_s5_tooltips" type="radio" default="no" label="Enable Tooltips?" description="Would you like to enable tooltips? NOTE: It is highly recommened to disable this script if you are not planning to use it.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</field>
+	</fieldset>
+		</fields>
+	</config>	
+</extension>

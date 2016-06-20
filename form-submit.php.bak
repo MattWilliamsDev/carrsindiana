@@ -1,0 +1,83 @@
+<?php
+
+require 'vendor/mandrill/mandrill/src/Mandrill.php';
+$API_KEY = 'AD8HUyJe1OZaEyW-CN71YQ';
+$mandrill = new Mandrill( $API_KEY );
+$recipient = 'mark@carrsindiana.com';
+
+try {
+	$message = array(
+		'html' => '<p>A submission has been received!</p><ul><li>Name: *|NAME|*</li><li>Email: *|EMAIL|*</li><li>Phone: *|PHONE|*</li><li>Questions/Comments: *|COMMENTS|*</li></ul>',
+		'subject' => 'Submission received on carrsindiana.com',
+		'from_email' => 'admin@carrsindiana.com',
+		'from_name' => 'CARRSIndiana Admin',
+		'to' => array(
+			array(
+				'email' => $recipient,
+				'name'  => 'Mark Collins',
+				'type'  => 'to'
+			)
+			// array(
+			// 	'email' => 'mark@carrsindiana.com',
+			// 	'name' => 'Mark Collins',
+			// 	'type' => 'to'
+			// )
+		),
+		'headers' => array( 'Reply-To' => 'admin@carrsindiana.com' ),
+		'merge'   => true,
+		'global_merge_vars' => array(
+			array(
+				'name' => 'name'
+				, 'content' => $_POST[ 'name' ]
+			)
+			, array(
+				'name' => 'email'
+				, 'content' => $_POST[ 'email' ]
+			)
+			, array(
+				'name' => 'phone'
+				, 'content' => $_POST[ 'phone' ]
+			)
+			, array(
+				'name' => 'comments'
+				, 'content' => $_POST[ 'comments' ]
+			)
+		),
+		'merge_vars' => array(
+			array(
+				'rcpt' => $recipient,
+                'vars' => array(
+                    array(
+						'name'		=> $_POST[ 'name' ],
+						'email'		=> $_POST[ 'email' ],
+						'phone'		=> $_POST[ 'phone' ],
+						'comments'	=> $_POST[ 'comments' ]
+					)
+                )
+			)
+		)
+	);
+	$async = false;
+	$ip_pool = 'Main Pool';
+	$send_at = (string) time();
+	$result = $mandrill->messages->send( $message, $async, $ip_pool );
+	print_r( $result );
+	/*
+	Array
+	(
+		[0] => Array
+			(
+				[email] => recipient.email@example.com
+				[status] => sent
+				[reject_reason] => hard-bounce
+				[_id] => abc123abc123abc123abc123abc123
+			)
+	
+	)
+	*/
+} catch( Mandrill_Error $e ) {
+	// Mandrill errors are thrown as exceptions
+	echo 'A mandrill error occurred: ' . get_class( $e ) . ' - ' . $e->getMessage();
+	// A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
+	throw $e;
+}

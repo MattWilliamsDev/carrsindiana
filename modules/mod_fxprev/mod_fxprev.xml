@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>FXPreview</name>
+    <author>Andrew Eddie</author>
+	<creationDate>Sep 10, 2012</creationDate>
+  	<copyright>(C) 2005 Andrew Eddie</copyright>
+    <version>1.0</version>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<description>
+    	<![CDATA[Module to show notebook preview based on ISBN Number]]>
+	</description>
+	
+    <files>
+	<folder>libraries/</folder>
+        <filename module="mod_fxprev">mod_fxprev.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    
+    <params>
+    	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="ISBN" type="text" size="32" default="" label="ISBN #" description="The ISBN Number of the NoteBook to preview" />
+        <param name="Width" type="text" size="32" default="" label="Width" description="The Width of the Frame" />
+        <param name="Height" type="text" size="32" default="" label="Height" description="The Height of the Frame" />
+    </params>
+</install>

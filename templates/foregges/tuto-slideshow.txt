@@ -1,0 +1,12 @@
+/***********tutoriel slideshow*******/
+
+
+ETAPE1
+mettez les images dans les modules que vous avez choisis 
+
+ETAPE2
+activez les modules choisis dans les positions tab1, tab2, tab3.
+
+voila c'est terminé!!!!!
+
+/*************************************/

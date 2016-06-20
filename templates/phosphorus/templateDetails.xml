@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>phosphorus</name>
+	<creationDate>November 2010</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	
+	<h1>Shape 5 - Phosphorus 2010</h1>
+
+	<br/>
+	<img src="../templates/phosphorus/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	This template is for members of the Shape 5 Joomla Template Club only, it is not free or open to the public domain.  <br /><br />
+	For tutorials and additional information check out:<br /> <a href="http://www.shape5.com/demo/phosphorus">Phosphorus Demo</a>.
+	<br />
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>footer.php</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>	
+		<filename>js/IEsuckerfish.js</filename>
+		<filename>js/s5_suckerfish.js</filename>
+		<filename>js/s5_textmenu.js</filename>
+		<filename>js/multibox/multibox.js</filename>
+		<filename>js/multibox/mootools124/multibox.js</filename>
+		<filename>js/multibox/mootools124/overlay.js</filename>
+		<filename>js/multibox/AC_RunActiveContent.js</filename>
+		<filename>js/multibox/overlay.js</filename>
+		<filename>js/multibox/mp3player.swf</filename>
+		<filename>js/multibox/flvplayer.swf</filename>
+		<filename>js/s5_no_moo_menu.js</filename>
+		<filename>js/jquery13.js</filename>
+		<filename>js/jquery_no_conflict.js</filename>
+		<filename>js/tooltips.js</filename>
+		<filename>js/s5_fading_no_moo_menu.js</filename>
+		<filename>js/s5_scroll_down_no_moo_menu.js</filename>		
+		<filename>js/s5_menu_active_and_parent_links.js</filename>		
+		<filename>html/modules.php</filename>
+		<filename>html/com_search/search/s5_live_search.php</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_s5_accordion_menu/default.php</filename>
+		<filename>html/mod_poll/default.php</filename>
+		<filename>html/mod_breadcrumbs/default.php</filename>				
+		<filename>html/com_content/archive/default.php</filename>	
+		<filename>html/com_content/archive/default_items.php</filename>	
+		<filename>html/com_content/archive/index.html</filename>
+		<filename>html/com_content/article/form.php</filename>	
+		<filename>html/com_content/article/default.php</filename>	
+		<filename>html/com_content/article/pagebreak.php</filename>			
+		<filename>html/com_content/article/index.html</filename>		
+		<filename>html/com_content/category/blog.php</filename>		
+		<filename>html/com_content/category/blog_item.php</filename>		
+		<filename>html/com_content/category/blog_links.php</filename>		
+		<filename>html/com_content/category/default.php</filename>	
+		<filename>html/com_content/category/default_items.php</filename>	
+		<filename>html/com_content/category/index.html</filename>			
+		<filename>html/com_content/frontpage/index.html</filename>	
+		<filename>html/com_content/frontpage/default.php</filename>	
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/default_links.php</filename>	
+		<filename>html/com_content/section/blog.php</filename>
+		<filename>html/com_content/section/blog_item.php</filename>
+		<filename>html/com_content/section/blog_links.php</filename>
+		<filename>html/com_content/section/default.php</filename>
+		<filename>html/com_content/section/index.html</filename>
+	</files>
+	<images>
+		<filename>images/arrow.png</filename>
+		<filename>images/arrow2.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>			
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>	
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>		
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>	
+		<filename>images/radiobutton.png</filename>			
+		<filename>images/s5_lsearch_topbot.png</filename>	
+		<filename>images/s5_inputback.png</filename>
+		<filename>images/readmore.png</filename>
+		<filename>images/s5_accordion_menu_back_bnk.png</filename>
+		<filename>images/s5_accordion_menu_back_not.png</filename>
+		<filename>images/s5_accordion_menu_left.png</filename>
+		<filename>images/s5_lrtab.png</filename>
+		<filename>images/searchclose.png</filename>
+		<filename>images/Shape5_GetReserved_grayarrow.png</filename>
+		<filename>images/Shape5_Phosphorus_bodyleftrep.png</filename>	
+		<filename>images/Shape5_Phosphorus_bodyleftshad.png</filename>
+		<filename>images/Shape5_Phosphorus_bodyrightrep.png</filename>
+		<filename>images/Shape5_Phosphorus_bodyrightshad.png</filename>	
+		<filename>images/Shape5_Phosphorus_botmodsbotshad.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_bl.png</filename>	
+		<filename>images/Shape5_Phosphorus_botstyle_dg_bm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_br.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_lm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_mm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_rm.png</filename>			
+		<filename>images/Shape5_Phosphorus_botstyle_dg_tl.png</filename>	
+		<filename>images/Shape5_Phosphorus_botstyle_dg_tm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_dg_tr.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_bl.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_bm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_br.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_lm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_mm.png</filename>			
+		<filename>images/Shape5_Phosphorus_botstyle_g_rm.png</filename>	
+		<filename>images/Shape5_Phosphorus_botstyle_g_tl.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_tm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_g_tr.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_bl.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_bm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_br.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_lm.png</filename>			
+		<filename>images/Shape5_Phosphorus_botstyle_w_mm.png</filename>	
+		<filename>images/Shape5_Phosphorus_botstyle_w_rm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_tl.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_tm.png</filename>
+		<filename>images/Shape5_Phosphorus_botstyle_w_tr.png</filename>
+		<filename>images/Shape5_Phosphorus_bottommodstopshad.png</filename>
+		<filename>images/Shape5_Phosphorus_breadcrumb.png</filename>
+		<filename>images/Shape5_Phosphorus_footerbottom.png</filename>			
+		<filename>images/Shape5_Phosphorus_footershadow.png</filename>	
+		<filename>images/Shape5_Phosphorus_footertop.png</filename>
+		<filename>images/Shape5_Phosphorus_h3bg_left.png</filename>
+		<filename>images/Shape5_Phosphorus_h3bg_mid.png</filename>
+		<filename>images/Shape5_Phosphorus_h3bg_right.png</filename>
+		<filename>images/Shape5_Phosphorus_h3black_left.png</filename>
+		<filename>images/Shape5_Phosphorus_h3black_mid.png</filename>
+		<filename>images/Shape5_Phosphorus_h3black_right.png</filename>			
+		<filename>images/Shape5_Phosphorus_h3wg_left.png</filename>	
+		<filename>images/Shape5_Phosphorus_h3wg_mid.png</filename>
+		<filename>images/Shape5_Phosphorus_h3wg_right.png</filename>		
+		<filename>images/Shape5_Phosphorus_h3white_left.png</filename>
+		<filename>images/Shape5_Phosphorus_h3white_mid.png</filename>			
+		<filename>images/Shape5_Phosphorus_h3white_right.png</filename>	
+		<filename>images/Shape5_Phosphorus_leftbutton.png</filename>
+		<filename>images/Shape5_Phosphorus_logo.png</filename>
+		<filename>images/Shape5_Phosphorus_mainbodyback.png</filename>
+		<filename>images/Shape5_Phosphorus_menuback.png</filename>
+		<filename>images/Shape5_Phosphorus_menubackshad.png</filename>
+		<filename>images/Shape5_Phosphorus_menurepback.png</filename>
+		<filename>images/Shape5_Phosphorus_menushadow.png</filename>			
+		<filename>images/Shape5_Phosphorus_midbutton.png</filename>	
+		<filename>images/Shape5_Phosphorus_mleftshad.png</filename>
+		<filename>images/Shape5_Phosphorus_modsbotshadow.png</filename>	
+		<filename>images/Shape5_Phosphorus_modsshadow.png</filename>
+		<filename>images/Shape5_Phosphorus_mrightshad.png</filename>	
+		<filename>images/Shape5_Phosphorus_rightbutton.png</filename>	
+		<filename>images/Shape5_Phosphorus_rm.png</filename>
+		<filename>images/Shape5_Phosphorus_searchback.png</filename>		
+		<filename>images/Shape5_Phosphorus_searchicon.png</filename>
+		<filename>images/Shape5_Phosphorus_sleftshad.png</filename>			
+		<filename>images/Shape5_Phosphorus_srightshad.png</filename>	
+		<filename>images/Shape5_Phosphorus_subarrow.png</filename>
+		<filename>images/Shape5_Phosphorus_subarrow_on.png</filename>
+		<filename>images/Shape5_Phosphorus_subbottom.png</filename>
+		<filename>images/Shape5_Phosphorus_subbottom_rtl.png</filename>
+		<filename>images/Shape5_Phosphorus_subhover.png</filename>
+		<filename>images/Shape5_Phosphorus_subhover_rtl.png</filename>
+		<filename>images/Shape5_Phosphorus_subtop.png</filename>			
+		<filename>images/Shape5_Phosphorus_subtop_rtl.png</filename>	
+		<filename>images/Shape5_Phosphorus_topbarline.png</filename>
+		<filename>images/Shape5_Phosphorus_topbarshad.png</filename>	
+		<filename>images/Shape5_Phosphorus_trans_g_bl.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_g_bm.png</filename>	
+		<filename>images/Shape5_Phosphorus_trans_g_br.png</filename>	
+		<filename>images/Shape5_Phosphorus_trans_g_lm.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_g_mm.png</filename>		
+		<filename>images/Shape5_Phosphorus_trans_g_tl.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_g_tm.png</filename>			
+		<filename>images/Shape5_Phosphorus_trans_g_tr.png</filename>	
+		<filename>images/Shape5_Phosphorus_trans_lg_bl.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_bm.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_br.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_lm.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_mm.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_mr.png</filename>
+		<filename>images/Shape5_Phosphorus_trans_lg_tl.png</filename>			
+		<filename>images/Shape5_Phosphorus_trans_lg_tm.png</filename>	
+		<filename>images/Shape5_Phosphorus_trans_lg_tr.png</filename>
+		<filename>images/Shape5_loginarrow.png</filename>
+		<filename>images/jcomments/buttonleft.png</filename>	
+		<filename>images/jcomments/buttonright.png</filename>	
+		<filename>images/jcomments/jcommentsbutton.png</filename>	
+		<filename>images/k2/k2comments.png</filename>	
+		<filename>images/k2/k2submit.png</filename>	
+		<filename>images/virtuemart/addtocart.png</filename>	
+		<filename>images/virtuemart/topleft.png</filename>	
+		<filename>images/virtuemart/topright.png</filename>	
+		<filename>images/multibox/close.png</filename>	
+		<filename>images/multibox/left.png</filename>	
+		<filename>images/multibox/leftDisabled.png</filename>	
+		<filename>images/multibox/loader.gif</filename>	
+		<filename>images/multibox/right.png</filename>	
+		<filename>images/multibox/rightDisabled.png</filename>	
+		<filename>images/typography/s5_ul_bullet.gif</filename>
+		<filename>images/typography/star.gif</filename>
+		<filename>images/typography/s5_bullet_small.png</filename>
+		<filename>images/typography/s5_left_quote.png</filename>
+		<filename>images/typography/s5_li_number1.png</filename>
+		<filename>images/typography/s5_li_number2.png</filename>
+		<filename>images/typography/s5_li_number3.png</filename>
+		<filename>images/typography/s5_li_number4.png</filename>
+		<filename>images/typography/s5_li_number5.png</filename>
+		<filename>images/typography/s5_li_number6.png</filename>
+		<filename>images/typography/s5_li_number7.png</filename>
+		<filename>images/typography/s5_li_number8.png</filename>
+		<filename>images/typography/s5_li_number9.png</filename>
+		<filename>images/typography/s5_right_quote.png</filename>
+		<filename>images/typography/s5_ul_arrow.png</filename>
+		<filename>images/typography/s5_ul_bullet.png</filename>
+		<filename>images/typography/s5_ul_star.png</filename>	
+		<filename>images/typography/s5typob_bl.jpg</filename>
+		<filename>images/typography/s5typob_br.jpg</filename>
+		<filename>images/typography/s5typob_point.jpg</filename>
+		<filename>images/typography/s5typob_tl.jpg</filename>
+		<filename>images/typography/s5typob_tr.jpg</filename>
+		<filename>images/typography/s5typodg_bl.jpg</filename>
+		<filename>images/typography/s5typodg_br.jpg</filename>
+		<filename>images/typography/s5typodg_point.jpg</filename>
+		<filename>images/typography/s5typodg_tl.jpg</filename>
+		<filename>images/typography/s5typodg_tr.jpg</filename>
+		<filename>images/typography/s5typog_bl.jpg</filename>	
+		<filename>images/typography/s5typog_br.jpg</filename>
+		<filename>images/typography/s5typog_point.jpg</filename>
+		<filename>images/typography/s5typog_tl.jpg</filename>
+		<filename>images/typography/s5typog_tr.jpg</filename>
+		<filename>images/typography/s5typor_bl.jpg</filename>
+		<filename>images/typography/s5typor_br.jpg</filename>
+		<filename>images/typography/s5typor_point.jpg</filename>
+		<filename>images/typography/s5typor_tl.jpg</filename>
+		<filename>images/typography/s5typor_tr.jpg</filename>	
+		<filename>images/preset1/background.png</filename>
+		<filename>images/preset2/background.png</filename>
+		<filename>images/preset3/background.png</filename>
+		<filename>images/preset4/background.png</filename>
+		<filename>images/preset5/background.png</filename>
+		<filename>images/preset6/background.png</filename>
+		<filename>images/preset7/background.png</filename>	
+		<filename>template_thumbnail.png</filename>	
+	</images>
+	<css>
+		<filename>css/template.css</filename>
+		<filename>css/multibox/ajax.css</filename>
+		<filename>css/multibox/ie6.css</filename>
+		<filename>css/multibox/multibox.css</filename>
+		<filename>css/suckerfish.css</filename>
+		<filename>css/editor.css</filename>
+		<filename>css/editor_rtl.css</filename>
+		<filename>css/template_rtl.css</filename>
+		<filename>css/preset2.css</filename>
+		<filename>css/preset3.css</filename>
+		<filename>css/preset4.css</filename>
+		<filename>css/preset5.css</filename>
+		<filename>css/preset6.css</filename>
+		<filename>css/preset7.css</filename>
+		<filename>css/thirdparty.css</filename>
+	</css>
+	<positions>
+		<position>logo</position>
+		<position>left</position>
+		<position>breadcrumb</position>
+		<position>inset</position>
+		<position>banner</position>
+		<position>right</position>
+		<position>login</position>
+		<position>register</position>
+		<position>debug</position>
+		<position>search</position>
+		<position>above_body_1</position>
+		<position>above_body_2</position>
+		<position>above_body_3</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>top</position>
+		<position>top_1</position>
+		<position>top_2</position>
+		<position>top_3</position>
+		<position>top_4</position>
+		<position>top_5</position>
+		<position>top_6</position>		
+		<position>contentbottom1</position>
+		<position>contentbottom2</position>
+		<position>contentbottom3</position>
+		<position>contentbottom4</position>
+		<position>contentbottom5</position>
+		<position>contentbottom6</position>		
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>bottom</position>	
+		<position>s5_box1</position>
+		<position>s5_box2</position>
+		<position>s5_box3</position>
+		<position>s5_box4</position>
+		<position>s5_box5</position>
+		<position>s5_box6</position>
+		<position>s5_box7</position>
+		<position>s5_box8</position>
+		<position>s5_box9</position>
+		<position>s5_box10</position>
+	</positions>
+	<params>
+		<param name="spacer1" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="xml_menuname" type="menu" default="" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+		<param name="xml_s5_widthtype" type="list" default="" label="Choose Fluid or Fixed" description="Fluid Width: Allow your site to stretch per screen resolution choose a width percentage by entering something between 1-100 below.  Fixed Width: Set your screen to a fixed pixel width below, Clarity demo is 965.">
+			<option value="%">Fluid</option>
+			<option value="px">Fixed</option>
+		</param>
+		<param name="xml_s5_moover" type="radio" default="" label="Template Mootools Version" description="Choose your mootools library version">
+			<option value="moo112">Mootools 1.12</option>
+			<option value="moo124">Mootools 1.2.4</option>
+		</param>
+		<param name="xml_s5_fonts" type="list" default="" label="Site Font" description="Choose the font you desire for your site. View previews here: http://code.google.com/webfonts">
+			<option value="Arial">Arial</option>
+			<option value="Helvetica">Helvetica</option>
+			<option value="Sans-Serif">Sans-Serif</option>
+			<option value="Cantarell">Cantarell</option>
+			<option value="Cardo">Cardo</option>	
+			<option value="Crimson">Crimson</option>
+			<option value="Droid Sans">Droid Sans</option>
+			<option value="Droid Sans Mono">Droid Sans Mono</option>
+			<option value="Droid Serif">Droid Serif</option>
+			<option value="IM Fell">IM Fell</option>
+			<option value="Inconsolata">Inconsolata</option>
+			<option value="Josefin Sans Std Light">Josefin Sans Std Light</option>
+			<option value="Lobster">Lobster</option>
+			<option value="Molengo">Molengo</option>
+			<option value="Neuton">Neuton</option>
+			<option value="Nobile">Nobile</option>
+			<option value="OFL Sorts Mill Goudy TT">OFL Sorts Mill Goudy TT</option>
+			<option value="Old Standard TT">Old Standard TT</option>
+			<option value="Reenie Beanie">Reenie Beanie</option>
+			<option value="Tangerine">Tangerine</option>
+			<option value="Vollkorn">Vollkorn</option>
+			<option value="Yanone Kaffeesatz">Yanone Kaffeesatz</option>
+		</param>
+		<param name="xml_s5_body_width" type="text" default="" label="Body Width" description="If you choose Fluid Width: Allow your site to stretch per screen resolution choose a width percentage by entering something between 1-100.  If you choose Fixed Width: Set your screen to a fixed pixel width Clarity demo is 965." />
+		<param name="xml_s5_left_width" type="text" default="" label="Left Column Width" description="What width in pixels would you like the left column to be?" />
+		<param name="xml_s5_right_width" type="text" default="" label="Right Column Width" description="What width in pixels would you like the right column to be?" />	
+		<param name="xml_s5_inset_width" type="text" default="" label="Inset Width" description="What width in pixels would you like the inset to be?" />
+		<param name="xml_s5_frontpage" type="list" default="" label="Would You Like The Component and Article Area Shown On The Frontpage?" description="Choose whether or not to show the component and article section on the frontpage of the site.">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		
+		<param name="xml_s5_thirdparty" type="radio" default="" label="Third Party Styles" description="Choose to enable or disable the third party stylings">
+			<option value="enabled">Enable</option>
+			<option value="disabled">Disable</option>
+		</param>
+		
+		<param type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Template Menu Options:&lt;/div&gt;" />
+		<param name="xml_s5_jsmenu" type="list" default="" label="Effect Script" description="Choose which script you would like to power the drop down menu.">
+			<option value="jq">jQuery</option>
+			<option value="s5">S5 Effects</option>
+		</param>	
+		<param name="xml_s5_menu" type="list" default="" label="Menu Type" description="Enter in 1 for No-MooMenu, 2 for Suckerfish, 3 for Fading No-Moo, or 4 for Nothing">
+			<option value="1">S5 Drop In No-MooMenu</option>
+			<option value="3">S5 Fading No-MooMenu</option>
+			<option value="4">S5 Scroll Down No-MooMenu</option>
+			<option value="2">Suckerfish</option>
+			<option value="5">No Menu</option>
+		</param>	
+		<param name="xml_s5_text_menu_1" type="text" default="" label="Text label 1" description="Enter what sub text you would like for the first menu item" />
+		<param name="xml_s5_text_menu_2" type="text" default="" label="Text label 2" description="Enter what sub text you would like for the second menu item" />
+		<param name="xml_s5_text_menu_3" type="text" default="" label="Text label 3" description="Enter what sub text you would like for the third menu item" />
+		<param name="xml_s5_text_menu_4" type="text" default="" label="Text label 4" description="Enter what sub text you would like for the fourth menu item" />
+		<param name="xml_s5_text_menu_5" type="text" default="" label="Text label 5" description="Enter what sub text you would like for the fifth menu item" />
+		<param name="xml_s5_text_menu_6" type="text" default="" label="Text label 6" description="Enter what sub text you would like for the sixth menu item" />
+		<param name="xml_s5_text_menu_7" type="text" default="" label="Text label 7" description="Enter what sub text you would like for the seventh menu item" />
+		<param name="xml_s5_text_menu_8" type="text" default="" label="Text label 8" description="Enter what sub text you would like for the eighth menu item" />
+		<param name="xml_s5_text_menu_9" type="text" default="" label="Text label 9" description="Enter what sub text you would like for the nineth menu item" />
+		<param name="xml_s5_text_menu_10" type="text" default="" label="Text label 10" description="Enter what sub text you would like for the tenth menu item" />				
+		<param name="xml_s5_subtext" type="list" default="" label="Enable Subtext" description="Choose to enable the sub text on the drop down menu.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+
+
+		<param type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Template Background and Background Color:&lt;/div&gt;" />
+		<param name="xml_s5_colors" type="list" default="" label="Site Color Theme" description="Choose your site colors from the presets.">
+			<option value="default">Preset 1</option>
+			<option value="preset2">Preset 2</option>
+			<option value="preset3">Preset 3</option>
+			<option value="preset4">Preset 4</option>
+			<option value="preset5">Preset 5</option>
+			<option value="preset6">Preset 6</option>
+			<option value="preset7">Preset 7</option>
+		</param>
+		<param name="xml_s5_backcolor" type="text" default="" label="Background Color" description="Enter the HEX color for the background color for your site. Enter transparent for none." />
+		<param name="xml_s5_mbbackcolor" type="text" default="" label="Main Body Background Color" description="Enter the HEX color for the background color of the main body. Enter transparent for none." />
+		<param name="xml_s5_topback" type="text" default="" label="Top Background" description="Enter the URL to a background image that will appear throughout the top of your site. Leave blank for none." />
+		<param name="xml_s5_headerback" type="text" default="" label="Body Background" description="Enter the URL to a background image that will repeat throughout the body of your site. Leave blank for none." />
+		<param name="xml_s5_bottomback" type="text" default="" label="Bottom Background" description="Enter the URL to a background image that will appear throughout the bottom of your site. Leave blank for none." />
+		
+		<param type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;line-height:29px;border:1px solid #e9e9e9;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;S5 Box: Text for Login, Register&lt;/div&gt;" />
+		<param name="xml_s5_login" type="text" default="" label="Login Text" description="Enter the text you desire for the login button" />
+		<param name="xml_s5_loginout" type="text" default="" label="Logout Text" description="Enter the text you desire for the logout button once users are logged in." />
+		<param name="xml_s5_register" type="text" default="" label="Register Text" description="Enter the text you desire for the register button" />
+
+		<param name="xml_s5_seourl" type="text" default="" label="Your Site URL if SEO enabled" description="If you turn on SEO URLs and your site loses its CSS formatting and flat out doesn't work enter your full site url here.  Example: http://www.mysite.com" />
+		<param type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;border:1px solid #e9e9e9;line-height:29px;padding-left:10px;margin-top:-3px;margin-bottom:-3px;font-weight:bold;font-size:13px;&quot;&gt;Multibox and Tooltips:&lt;/div&gt;" />
+		<param name="xml_s5_tooltips" type="list" default="" label="Enable Tooltips?" description="Enable the tooltips feature for your site  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_multibox" type="list" default="" label="Enable Multibox?" description="Enable the multibox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>
+		<param name="xml_s5_multioverlay" type="list" default="" label="Enable Multibox Overlay?" description="Enable the multibox overlay feature.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</param>
+		
+		
+		<param name="xml_s5_multicontrols" type="list" default="" label="Enable Multibox Controls?" description="Enable the multibox controls.">
+			<option value="true">yes</option>
+			<option value="false">no</option>
+		</param>
+		
+		<param type="spacer" default="&lt;div style=&quot;color:f6f6f6;background:#f6f6f6;height:30px;border:1px solid #e9e9e9;line-height:29px;margin-top:-3px;margin-bottom:-3px;padding-left:10px;font-weight:bold;font-size:13px;&quot;&gt;Fixed Tab Settings:&lt;/div&gt;" />
+		<param name="tabs_sub1" type="spacer" default="Note - To disable a fixed tab simply leave the text area blank." />
+		<param name="xml_s5_lr_tab_border" type="text" default="838383" label="Fixed Tab Border Color" description="Enter in Hex the color for the fixed tab borders." />
+		<param name="xml_s5_lr_tab_color" type="text" default="FFFFFF" label="Fixed Tab Background Color" description="Enter in Hex the color for the fixed tab backgrounds." />
+		<param name="xml_s5_lr_tab_font" type="text" default="323232" label="Fixed Tab Font Color" description="Enter in Hex the color for the fixed tab font color." />
+		<param name="tabs_sub2" type="spacer" default="Fixed Tab 1 Settings:" />
+		<param name="xml_s5_lr_tab1_text" type="text" default="" label="Fixed Tab 1 Text" description="Enter the text you desire for the first fixed tab button.  If no text is added it will auto disable." />
+		<param name="xml_s5_lr_tab1_vp" type="text" default="30" label="Fixed Tab 1 Vertical Position" description="Enter in a percentage example 40%, the vertical position on screen you desire for the first fixed tab." />
+		<param name="xml_s5_lr_tab1_height" type="text" default="100" label="Fixed Tab 1 Height" description="Enter the height of the first fixed tab button in px." />
+		<param name="xml_s5_lr_tab1_class" type="text" default="" label="Fixed Tab 1 Class" description="You can add a class name to the first fixed tab to enable a lightbox plugin, or perhaps the s5 box." />
+		<param name="xml_s5_lr_tab1_click" type="text" default="" label="Fixed Tab 1 On Click URL" description="Enter a URL if you want the first tab to go to a location on click" />
+		<param name="xml_s5_lr_tab1_left_right" type="radio" default="right" label="Left or Right of Screen" description="Choose to display the first fixed tab on the left or right side of your screen">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="tabs_sub3" type="spacer" default="Fixed Tab 2 Settings:" />
+		<param name="xml_s5_lr_tab2_text" type="text" default="" label="Fixed Tab 2 Text" description="Enter the text you desire for the second fixed tab button. If no text is added it will auto disable." />
+		<param name="xml_s5_lr_tab2_vp" type="text" default="70" label="Fixed Tab 2 Vertical Position" description="Enter in a percentage example 40%, the vertical position on screen you desire for the second fixed tab." />
+		<param name="xml_s5_lr_tab2_height" type="text" default="100" label="Fixed Tab 2 Height" description="Enter the height of the first second tab button in px." />
+		<param name="xml_s5_lr_tab2_class" type="text" default="" label="Fixed Tab 2 Class" description="You can add a class name to the second fixed tab to enable a lightbox plugin, or perhaps the s5 box." />
+		<param name="xml_s5_lr_tab2_click" type="text" default="" label="Fixed Tab 2 On Click" description="Enter a URL if you want the second tab to go to a location on click" />
+		<param name="xml_s5_lr_tab2_left_right" type="radio" default="right" label="Left or Right of Screen" description="Choose to display the second fixed tab on the left or right side of your screen">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</param>
+		
+		
+		</params>
+</install>

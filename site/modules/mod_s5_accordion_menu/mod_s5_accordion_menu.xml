@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>S5 Accordion Menu</name>
+	<author>Shape5.com - modified from Joomla! Project mainmenu</author>
+	<creationDate>September 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.5.0</version>
+	<description>Displays an accordion style menu.</description>
+	<files>
+		<filename module="mod_s5_accordion_menu">mod_s5_accordion_menu.php</filename>
+			<filename>css/s5_accordion_menu.css</filename>
+			<filename>images/s5_accordion_menu_back_act.png</filename>
+			<filename>images/s5_accordion_menu_back.png</filename>
+			<filename>tmpl/default.php</filename>
+			<filename>tmpl/index.html</filename>
+			<filename>js/s5_accordion_menu.js</filename>
+			<filename>helper.php</filename>
+			<filename>index.html</filename>
+	</files>
+	<params>
+		<param name="menutype" type="mos_menu" default="" label="Menu Name" description="The name of the menu (default is mainmenu)" />
+		<param name="showAllChildren" type="radio" default="0" label="Always Show Submenu Items?" description="PARAMSHOWSUBMENUITEMS">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="parentlinks" type="radio" default="0" label="Enable or Disable First Level Parent Hyperlinks?" description="PARAMSHOWSUBMENUITEMS">
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="other">
+		<param name="menu_images" type="radio" default="0" label="Show Menu Icons" description="PARAMSHOWMENUICONS">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="menu_images_align" type="radio" default="0" label="Menu Icon Alignment" description="Alignment of the Menu Icons">
+			<option value="0">Left</option>
+			<option value="1">Right</option>
+			<option value="2">None</option>
+		</param>
+		 <param name="menu_images_link" type="radio" default="0" label="Menu Icon Link" description="PARAMMENUICONLINK">
+		      	<option value="0">No</option>
+		      	<option value="1">Yes</option>
+		  </param>
+	</params>
+</install>

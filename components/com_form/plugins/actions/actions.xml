@@ -1,0 +1,5 @@
+<actions version="$Id: actions.xml 2 2009-01-03 00:16:32Z  $">
+	<action>thankyou</action>
+	<action>save</action>
+	<action>mail</action>
+</actions>

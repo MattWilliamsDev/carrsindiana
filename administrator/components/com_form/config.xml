@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+
+		<param name="myforms" type="list" default="No" value="No"
+			label="Show 'My Forms' page?"
+			description="Select this and leave the form id empty above to make this menu link display the My Forms page">
+			<option value="No">No, this menu item is to show the form
+				speciaifed below</option>
+			<option value="Yes">Yes, this menu item shows the My Forms Page
+			</option>
+		</param>
+		<param name="form_id" type="text" default="" label="Form Id To Show"
+			description="The form_id number to display, leave blank for all forms, leave blank if showing the My Forms page" />
+			
+	</params>
+</config>

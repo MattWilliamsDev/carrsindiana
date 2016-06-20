@@ -1,0 +1,120 @@
+#s5_navv li, .s5_module_box, .s5_module_box-medium, .s5_module_box-dark, .s5_module_box-light_box, .s5_module_box-dark_box, .s5_module_box-none, #s5_component_wrap_area_inner, #s5_right_wrap, #s5_left_wrap, #s5_footer_wrap {
+direction:rtl;
+text-align:right;
+}
+
+#s5_logo {
+background:url(../images/s5_logo.png) no-repeat top right;
+}
+
+.button, a.readon {
+background-position:top right;
+}
+
+.img  {
+margin-right:-16px;
+}
+
+#s5_outer_wrap {
+overflow:hidden;
+padding-left:17px;
+padding-right:17px;
+}
+
+#s5_search_wrap {
+width:201px;
+float:left;
+padding:0px;
+}
+
+#s5_search_wrap {
+padding:0px;
+padding-left:26px;
+}
+
+#s5_login_register_wrap {
+padding-left:6px;
+}
+
+#s5_top_menu ul.menu li, #s5_login_register_wrap, #s5_header_r_wrap, #s5_top_menu {
+float:left;
+}
+
+#s5_logo, #s5_navv, #s5_bottom_menu ul.menu li {
+float:right;
+}
+
+#loading_img {
+visibility:hidden;
+}
+
+#s5_navv li {
+float:right;
+background:url(../images/rtl/s5_menu_sep.png) no-repeat top left;
+}
+
+#s5_navv li li a{
+	padding-left:0px;
+}
+
+#s5_navv ul li ul li a, #s5_navv li.s5_level_one_parent li a, #s5_navv li.active li a {
+padding-left:0px;
+margin-right:28px;
+}
+
+#s5_navv li ul {
+right:-999em;
+}
+
+#s5_navv li:hover ul ul, 
+#s5_navv li:hover ul ul ul,
+#s5_navv li:hover ul ul ul ul {
+right:-999em;
+}
+
+#s5_navv li:hover ul{
+right:-5px;
+}
+
+#s5_navv li li:hover ul,
+#s5_navv li li li:hover ul{
+right:216px;
+}
+
+#s5_navv ul li ul li a.parent, #s5_navv ul li ul li a.parent:hover {
+	height:17px;
+	background:url(../images/rtl/s5_menu_parent.png) no-repeat top left;
+}
+
+.latestnews li, .mostread li, .sections li, .s5_module_box ul.menu a {
+background-position:center right;
+}
+
+ul.menu ul a {
+padding-right:10px;
+}
+
+ul.menu ul ul a {
+padding-left:0px;
+padding-right:20px;
+}
+
+.s5_module_box ul.menu li ul li {
+margin-left:0px;
+margin-right:24px;
+}
+
+span.s5_accordion_menu_left {
+padding-right:8px;
+}
+
+div.s5_accordion_menu_element li li {
+padding-right:28px;
+padding-left:0px;
+}
+
+div.s5_accordion_menu_element li a {
+padding-left:0px;
+padding-right:23px;
+background-position:center right;
+}

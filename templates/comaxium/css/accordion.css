@@ -1,0 +1,50 @@
+.AccordionContainer {
+  width:620px;
+}
+
+.AccordionTitle, .AccordionContent
+{
+  position:relative;
+  width:600px;
+}
+
+.AccordionTitle
+{
+  height:30px;
+  overflow:hidden;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:12pt;
+  font-weight:bold;
+  vertical-align:middle;
+  text-align:left;
+  background-repeat:repeat-x;
+  display:table-cell;
+  -moz-user-select:none;
+  background-color:#ddd;
+  border:1px solid #bbb;
+  padding:3px 10px;
+  color:#444;
+}
+
+.AccordionTitle:hover {
+	background-color:#abd4f0;
+}
+
+.AccordionContent
+{
+  height:0px;
+  display:none; 
+  overflow:auto;
+  margin-bottom:10px;
+}
+
+.AccordionTitle {
+  border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+}
+
+.AccordionWrapper {
+	padding:10px;
+}

